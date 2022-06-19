@@ -8,8 +8,9 @@ A simple project to practice JS Drag and Drop 🚀
 
 - [Installation](#installation)
 - [Technologies used in this project](#technologies-used-in-this-project)
+- [Preview](#preview)
 - [Collaborators](#collaborators)
-
+- 
 <br/>
 
 # <strong>Installation</strong>
@@ -25,6 +26,9 @@ A simple project to practice JS Drag and Drop 🚀
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 <br/>
+
+## Preview 
+- [Code Sandbox live preview](https://codesandbox.io/s/pure-javascript-drag-and-drop-1hvtf2?file=/README.md)
 
 ## Collaborators
 
