@@ -79,7 +79,7 @@ function onDragEnter(e) {
   this.classList.add("dragEnter");
 }
 
-function wrongOrCorrect(type = "wrong") {
+function setWrongOrCorrectText(type = "wrong") {
   if (type === "correct") {
     orderIndicator.classList.remove("wrong");
     orderIndicator.classList.add("correct");
@@ -96,11 +96,11 @@ function checkOrder() {
     const dataToString = String(data[index] + 1);
 
     if (dataToString !== item.innerText) {
-      wrongOrCorrect();
+      setWrongOrCorrectText();
       return;
     }
 
-    wrongOrCorrect("correct");
+    setWrongOrCorrectText("correct");
   });
 }
 
