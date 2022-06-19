@@ -24,6 +24,8 @@ A simple project to practice JS Drag and Drop 🚀
 ## Technologies used in this project
 
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- HTML 5
+- CSS
 
 <br/>
 
