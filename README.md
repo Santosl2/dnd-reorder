@@ -10,7 +10,7 @@ A simple project to practice JS Drag and Drop 🚀
 - [Technologies used in this project](#technologies-used-in-this-project)
 - [Preview](#preview)
 - [Collaborators](#collaborators)
-- 
+
 <br/>
 
 # <strong>Installation</strong>
