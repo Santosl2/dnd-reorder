@@ -92,16 +92,16 @@ function setWrongOrCorrectText(type = "wrong") {
 }
 
 function checkOrder() {
+  let error = 0;
   list.querySelectorAll("li").forEach((item, index) => {
     const dataToString = String(data[index] + 1);
 
     if (dataToString !== item.innerText) {
-      setWrongOrCorrectText();
-      return;
+      error += 1;
     }
-
-    setWrongOrCorrectText("correct");
   });
+
+  return error > 0 ? wrongOrCorrect() : wrongOrCorrect("correct");
 }
 
 createElements();
